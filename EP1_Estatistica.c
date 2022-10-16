@@ -13,7 +13,7 @@ int main(){
 
     printf("\nEntre com numeros: \n");
     for(int i=0; i<N; i++){ // Laço que percorre todos os ídices do vetor.
-    scanf("%f", &vet[i]); //Função que capta as entradas de nºs da série/vetor e aloca em índices.
+    scanf("%f", &vet[i]); // Função que capta as entradas de nºs da série/vetor e aloca em índices.
     }
 
 /*====MAIOR E MENOR=================================================================================================================*/
