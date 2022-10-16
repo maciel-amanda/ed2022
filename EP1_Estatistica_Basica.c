@@ -72,7 +72,7 @@ int main(){
         variancia += num * num; // Calcula o quadrado dos desvios (multiplando cada número por ele mesmo) e depois soma.
       }
        float dp = sqrt(variancia/N); // Cálculo da raiz quadrada da variância dividida pelo total de números da série(N).
-       printf("Desvio Padrao Populacional = %.13f\n", dp);
+       printf("Desvio Padrao Populacional: %.13f\n", dp);
 
 return 0;
 
